@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  width: 1600px;
+  height: 1400px;
+}
+
+.preview {
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 6px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  height: 400px;
+  width: 550px;
+  margin-right: 0;
+  background-color: white;
+  gap: 40px;
+  position: relative;
+  top: 70px;
+  left: 50px;
+  border-radius: 5%;
+}
+
+.product-img {
+  border-bottom-left-radius: 5%;
+  border-top-left-radius: 5%;
+}
+
+.perfume-div {
+  padding-right: 10px;
+}
+
+.description {
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 35px;
+  color: hsl(212, 21%, 14%);
+  margin-bottom: 20px;
+}
+
+.sale {
+  font-size: 35px;
+  color: hsl(158, 36%, 37%);
+}
+
+.original {
+  text-decoration: line-through;
+  font-size: 14px;
+  align-self: center;
+}
+
+.cost {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+.button {
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  font-size: 12px;
+  height: 35px;
+  width: 90%;
+  border-radius: 5%;
+}
