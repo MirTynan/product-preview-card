@@ -28,12 +28,12 @@ body {
   position: relative;
   top: 70px;
   left: 50px;
-  border-radius: 5%;
+  border-radius: 15px;
 }
 
 .product-img {
-  border-bottom-left-radius: 5%;
-  border-top-left-radius: 5%;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .perfume-div {
